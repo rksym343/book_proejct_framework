@@ -13,6 +13,7 @@ import kr.or.dgit.book_project.basic_panel.SpinnerPanel;
 
 import javax.swing.JButton;
 import java.awt.Dimension;
+import java.awt.GridBagLayout;
 
 @SuppressWarnings("serial")
 public class BookInfo extends JPanel {
@@ -29,8 +30,10 @@ public class BookInfo extends JPanel {
 		panel.add(pBCode);
 		pBCode.setLayout(new GridLayout(1, 1, 5, 0));
 		
-		BookCodePanel panel_1 = new BookCodePanel();
-		pBCode.add(panel_1);
+		BookCodePanel pCode = new BookCodePanel();
+		GridBagLayout gridBagLayout = (GridBagLayout) pCode.getLayout();
+		gridBagLayout.columnWidths = new int[] {120, 200, 0};
+		pBCode.add(pCode);
 
 		JPanel panel_6 = new JPanel();
 		pBCode.add(panel_6);

@@ -38,7 +38,7 @@ public class ViewTest extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new GridLayout(0, 1, 0, 0));
 		
-		BookSearchBookDetailViewFrame panel = new BookSearchBookDetailViewFrame();
+		MemberSearchMemberPaymentViewFrame panel = new MemberSearchMemberPaymentViewFrame();
 		contentPane.add(panel);
 	}
 
