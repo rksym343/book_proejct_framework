@@ -38,7 +38,7 @@ public class ViewTest extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new GridLayout(0, 1, 0, 0));
 		
-		BookReturnView panel = new BookReturnView();
+		BookLendView panel = new BookLendView();
 		contentPane.add(panel);
 	}
 

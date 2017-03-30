@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import kr.or.dgit.book_project.book_panel.AbsViewPanel;
+import kr.or.dgit.book_project.basic_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.PublisherInfo;
 
 public class PublisherView extends AbsViewPanel {

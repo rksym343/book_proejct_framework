@@ -6,8 +6,8 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import kr.or.dgit.book_project.book_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.PaymentIo;
+import kr.or.dgit.book_project.basic_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.BookLendMemberDetail;
 import kr.or.dgit.book_project.book_panel.BookLendMemberDetailDate;
 

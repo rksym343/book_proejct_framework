@@ -7,15 +7,13 @@ import javax.swing.JTextField;
 @SuppressWarnings("serial")
 public class InputComp extends CompPanel {
 	private JTextField tF;
-
-	/**
-	 * Create the panel.
-	 */
+	
 	public InputComp() {
 		
 		tF = new JTextField();
-		pContent.add(tF);
 		tF.setColumns(10);
+		pContent.add(tF);
+		
 
 	}
 

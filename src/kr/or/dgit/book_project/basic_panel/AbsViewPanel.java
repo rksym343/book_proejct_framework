@@ -5,7 +5,6 @@ import java.awt.Rectangle;
 import javax.swing.JPanel;
 import java.awt.GridLayout;
 
-@SuppressWarnings("serial")
 public class AbsViewPanel extends JPanel {
 
 	/**

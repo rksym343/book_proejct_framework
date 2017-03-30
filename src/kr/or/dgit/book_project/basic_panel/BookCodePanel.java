@@ -1,8 +1,6 @@
 package kr.or.dgit.book_project.basic_panel;
 
-import javax.swing.JPanel;
 import javax.swing.JTextField;
-import java.awt.GridLayout;
 import java.util.regex.Pattern;
 
 @SuppressWarnings("serial")
@@ -14,12 +12,13 @@ public class BookCodePanel extends CompPanel {
 		lblTitle.setText("도서코드");
 
 		tfBCode = new JTextField();
-		pContent.add(tfBCode);
 		tfBCode.setColumns(10);
+		pContent.add(tfBCode);
+		
 
 		tfBSubCode = new JTextField();
-		pContent.add(tfBSubCode);
 		tfBSubCode.setColumns(2);
+		pContent.add(tfBSubCode);
 
 	}
 

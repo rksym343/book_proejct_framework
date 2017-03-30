@@ -5,7 +5,7 @@ import java.awt.GridLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import kr.or.dgit.book_project.book_panel.AbsViewPanel;
+import kr.or.dgit.book_project.basic_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.MemberInfo;
 
 public class MemberInsertView extends AbsViewPanel {

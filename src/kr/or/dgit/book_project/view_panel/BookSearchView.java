@@ -3,7 +3,7 @@ package kr.or.dgit.book_project.view_panel;
 import javax.swing.JPanel;
 import java.awt.GridLayout;
 
-import kr.or.dgit.book_project.book_panel.AbsViewPanel;
+import kr.or.dgit.book_project.basic_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.BookSearchPanel;
 import kr.or.dgit.book_project.book_panel.CheckSearchDesign;
 
