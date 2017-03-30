@@ -6,7 +6,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import kr.or.dgit.book_project.book_panel.PaymentIo;
+import kr.or.dgit.book_project.book_panel.BookInfoBasic;
 import kr.or.dgit.book_project.basic_panel.AbsViewPanel;
 import kr.or.dgit.book_project.book_panel.BookLendMemberDetail;
 import kr.or.dgit.book_project.book_panel.BookLendMemberDetailDate;
@@ -28,7 +28,7 @@ public class BookReturnView extends AbsViewPanel {
 		add(panel);
 		panel.setLayout(new GridLayout(0, 2, 0, 0));
 		
-		PaymentIo panel_3 = new PaymentIo();
+		BookInfoBasic panel_3 = new BookInfoBasic();
 		panel.add(panel_3);
 		
 		JPanel panel_5 = new JPanel();
